@@ -11,9 +11,5 @@ class Todos extends React.Component {
   }
 }
 
-// Require Property types
-Todos.propTypes = {
-  todos: PropTypes.array.isRequired
-}
 
 export default Todos;

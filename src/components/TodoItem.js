@@ -25,11 +25,6 @@ export class TodoItem extends React.Component {
   }
 }
 
-// Required Property types
-TodoItem.propTypes = {
-  todo: PropTypes.object.isRequired
-}
-
 const btnStyle = {
   background: '#ff0000',
   color: '#fff',

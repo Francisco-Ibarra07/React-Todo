@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 
 export class AddTodo extends React.Component {
 
@@ -16,6 +17,7 @@ export class AddTodo extends React.Component {
 
   onSubmit = (event) => {
     event.preventDefault();
+    console.log(this.state.title);
     this.props.addTodo(this.state.title);
     this.setState({ title: '' });
   }
